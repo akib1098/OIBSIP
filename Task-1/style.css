@@ -211,6 +211,12 @@ hr{
     align-items: center;
     gap: 10px;
 }
+.brand > img{
+    width: 15vw;
+}
+.geolocation > img{
+    width: 100vw;
+}
 
 /* footer */
 .footer{
@@ -247,8 +253,14 @@ top: 300px;
         font-size: 1em;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
     .nav-mid{
         display: none;
+    }
+    .hero{
+    flex-direction: column;
+    }
+    .offer-boxes{
+        flex-direction: column;
     }
 }
