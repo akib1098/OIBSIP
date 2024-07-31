@@ -1,0 +1,28 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+/* variable */
+:root{
+    --nav-right-position: 40px;
+
+}
+
+/* navigation */
+.logo{
+}
+.nav-right{
+    position: absolute;
+    right: 20px;
+}
+.sign-in{
+    right: ;
+}
+.nav-mid{
+    position: center;
+}
+nav{
+    font-family: "Rubik", sans-serif;
+    position: relative;
+    display: flex;
+}
