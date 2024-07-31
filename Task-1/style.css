@@ -216,11 +216,12 @@ hr{
 .footer{
     display: flex;
 }
-.right-footer > h5{
+.right-footer > h6{
     width: 50vw;
     height: 40vh;
     font-size: 2em;
     left: 50px;
+    font-size: 2em;
 }
 .left-footer > p{
 top: 300px;
@@ -236,7 +237,10 @@ top: 300px;
 .footer-column > ul > li:hover{
     border-bottom: 2px solid red;
 }
-
+.last{
+    text-align: center;
+    background-color: rgb(199, 199, 199);
+}
 /* resoposive */
 @media screen and (max-width: 650px) {
     .nav-mid{
