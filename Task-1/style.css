@@ -49,6 +49,12 @@ nav > button{
 nav > button:hover{
     font-weight: bold;
 }
+.divider{
+    width: 100vw;
+    height: 2px;
+    background-color: red;
+    border: 1px solid red;
+}
 
 /* hero-section */
 .hero{
@@ -204,6 +210,31 @@ hr{
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+/* footer */
+.footer{
+    display: flex;
+}
+.right-footer > h5{
+    width: 50vw;
+    height: 40vh;
+    font-size: 2em;
+    left: 50px;
+}
+.left-footer > p{
+top: 300px;
+}
+.left-footer{
+    display: flex;
+}
+.footer-column > ul > li{
+    cursor: pointer;
+    transition: 200ms;
+    transform-origin: left;
+}
+.footer-column > ul > li:hover{
+    border-bottom: 2px solid red;
 }
 
 /* resoposive */
